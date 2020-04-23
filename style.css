@@ -1,7 +1,7 @@
 /* tag */
 body
 {
-  background-color: #cff1ef;
+  background-color: #a0ffe6;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -9,7 +9,7 @@ body
 
 hr
 {
-  border-color: #81f5ff;
+  border-color: #4d4c7d;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
@@ -41,7 +41,7 @@ p
 /* class */
 .topC
 {
-  background-color: #cff1ef;
+  background-color: #81f5ff;
   margin: 20px;
   position: relative;
   padding-top: 100px;
@@ -49,11 +49,16 @@ p
 
 .middleC
 {
-
+  background-color: #a8e6cf;
+  margin: 20px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .bottomC
 {
+  background-color: #ffc2c2;
+  /* margin: 20px; */
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
@@ -82,6 +87,7 @@ p
   padding-top: 40px;
   max-width: 40%;
   max-height: 40%;
+  size : 40%;
 }
 
 .para-footer
@@ -92,4 +98,15 @@ p
 .footer-link
 {
   text-decoration: none;
+}
+
+.pp
+{
+
+  border-radius: 50%
+}
+
+.skills
+{
+  size: 1%;
 }
